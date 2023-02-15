@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+}
+
+header,
+main,
+footer {
+  background-color: #eee;
+  margin-bottom: 1%;
+  padding: 2%;
+}
+
+.box {
+  width: 10%;
+  aspect-ratio: 1/1;
+  padding: 1%;
+  margin: 0.3%;
+}
+
+#container {
+  position: relative;
+  border: 3px red dashed;
+  width: 100%;
+  aspect-ratio: 10/9;
+}
+
+/* SKRIV KUN KODE HERUNDER */
+
+.redBox {
+  background-color: #ff1d00;
+  scale: 0.5 0.5;
+}
+
+.yellowBox {
+  background-color: #ffeb00;
+  translate: 50% -50%;
+}
+
+.pinkBox {
+  background-color: #ff9ecf;
+  scale: 1.5 1.5;
+  translate: 120% -80%;
+}
+
+.greenBox {
+  background-color: #1fd81f;
+  scale: 2.5 2.5;
+  translate: 250% -50%;
+}
+
+.blueBox {
+  background-color: #0180fc;
+  scale: 3 3;
+  translate: 400% -20%;
+}

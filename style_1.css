@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+}
+
+header,
+main,
+footer {
+  background-color: #eee;
+  margin-bottom: 1%;
+  padding: 2%;
+}
+
+.box {
+  width: 10%;
+  aspect-ratio: 1/1;
+  padding: 1%;
+  margin: 0.3%;
+}
+
+#container {
+  position: relative;
+  border: 3px red dashed;
+  width: 100%;
+  aspect-ratio: 10/9;
+}
+
+/* SKRIV KUN KODE HERUNDER */
+
+.redBox {
+  background-color: #ff1d00;
+  rotate: 92deg;
+  transform-origin: 0 100%;
+  /* translate: 300% 100%; */
+  top: 20%;
+  left: 30%;
+  position: absolute;
+}
+
+.yellowBox {
+  background-color: #ffeb00;
+  rotate: 164deg;
+  transform-origin: 0 100%;
+  /* translate: 300% 0; */
+  top: 20%;
+  left: 30%;
+  position: absolute;
+}
+
+.pinkBox {
+  background-color: #ff9ecf;
+  rotate: 236deg;
+  transform-origin: 0 100%;
+  /* translate: 300% -100%; */
+  top: 20%;
+  left: 30%;
+  position: absolute;
+}
+
+.greenBox {
+  background-color: #1fd81f;
+  rotate: 308deg;
+  transform-origin: 0 100%;
+  /* translate: 300% -200%; */
+  top: 20%;
+  left: 30%;
+  position: absolute;
+}
+
+.blueBox {
+  background-color: #0180fc;
+  rotate: 20deg;
+  transform-origin: 0 100%;
+  /* translate: 300% -300%; */
+  top: 20%;
+  left: 30%;
+  position: absolute;
+}
